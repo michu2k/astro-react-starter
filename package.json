@@ -9,10 +9,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "ts:check": "tsc --noEmit",
-    "lint:check": "eslint \"**/*.{ts,tsx,astro}\"",
-    "lint:fix": "eslint \"**/*.{ts,tsx,astro}\" --fix",
-    "format:check": "prettier \"src/**/*.{ts,tsx,astro}\" --check --cache",
-    "format:fix": "prettier \"src/**/*.{ts,tsx,astro}\" --write --cache"
+    "lint:check": "eslint \"**/*.{ts,tsx,mjs,js,astro}\"",
+    "lint:fix": "eslint \"**/*.{ts,tsx,mjs,js,astro}\" --fix",
+    "format:check": "prettier \"**/*.{ts,tsx,mjs,js,astro}\" --check --cache",
+    "format:fix": "prettier \"**/*.{ts,tsx,mjs,js,astro}\" --write --cache"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
