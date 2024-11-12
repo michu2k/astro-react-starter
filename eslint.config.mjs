@@ -66,5 +66,8 @@ export default [
     name: "React config",
     files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
     rules: {}
+  },
+  {
+    ignores: ["dist"]
   }
 ];
