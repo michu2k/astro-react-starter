@@ -15,7 +15,9 @@
     "lint:check": "eslint \"**/*.{ts,tsx,mjs,js,astro}\"",
     "lint:fix": "eslint \"**/*.{ts,tsx,mjs,js,astro}\" --fix",
     "format:check": "prettier \"**/*.{ts,tsx,mjs,js,astro}\" --check --cache",
-    "format:fix": "prettier \"**/*.{ts,tsx,mjs,js,astro}\" --write --cache"
+    "format:fix": "prettier \"**/*.{ts,tsx,mjs,js,astro}\" --write --cache",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -43,6 +45,7 @@
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.8",
-    "typescript-eslint": "^8.13.0"
+    "typescript-eslint": "^8.13.0",
+    "vitest": "^2.1.5"
   }
 }
