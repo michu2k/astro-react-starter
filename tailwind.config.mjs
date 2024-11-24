@@ -3,10 +3,16 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}"],
   darkMode: ["class"],
   theme: {
+    container: {
+      center: true
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))"
+        foreground: "hsl(var(--foreground))",
+        muted: {
+          foreground: "hsl(var(--muted-foreground))"
+        }
       }
     }
   },
