@@ -1,11 +1,13 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 
+import {Example} from "@/components/example";
+
 import "@/styles/global.css";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="container flex h-full flex-col items-center justify-center gap-6">
+  <main class="container flex h-full flex-col items-center justify-center gap-6 p-4">
     <svg
       class="texts-red-50 absolute left-1/2 top-1/3 -z-10 h-auto w-56 -translate-x-1/2"
       width="495"
@@ -33,13 +35,15 @@ import "@/styles/global.css";
       </defs>
     </svg>
 
-    <h1 class="text-center text-5xl font-medium">
+    <h1 class="text-center text-4xl font-medium md:text-5xl">
       <strong>Astro</strong> and <strong>React</strong> starter
     </h1>
 
-    <p class="text-muted-foreground max-w-[34rem] text-center text-lg">
+    <p class="max-w-[34rem] text-center text-lg text-muted-foreground">
       A lightweight Astro starter template featuring React and pre-configured Tailwind CSS, ESLint, Prettier, and Vitest
       for the fastest development experience.
     </p>
+
+    <Example client:load />
   </main>
 </Layout>
