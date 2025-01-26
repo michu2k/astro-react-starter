@@ -1,7 +1,9 @@
 ---
-import montserratWoff2 from "@fontsource-variable/montserrat/files/montserrat-latin-wght-normal.woff2?url";
+import poppinsWoff2 from "@fontsource/poppins/files/poppins-latin-400-normal.woff2?url";
 
-import "@fontsource-variable/montserrat";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/500.css";
+import "@fontsource/poppins/600.css";
 
 interface Props {
   title: string;
@@ -17,7 +19,7 @@ const {title} = Astro.props;
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preload" as="font" type="font/woff2" href={montserratWoff2} crossorigin="anonymous" />
+    <link rel="preload" as="font" type="font/woff2" href={poppinsWoff2} crossorigin="anonymous" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
