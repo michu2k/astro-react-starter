@@ -69,6 +69,6 @@ export default [
     rules: {}
   },
   {
-    ignores: ["dist"]
+    ignores: ["dist", ".astro"]
   }
 ];
