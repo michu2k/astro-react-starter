@@ -8,6 +8,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["eslint.config.mjs", "src", "**/*.mjs"],
+  "include": ["eslint.config.mjs", "**/*.ts", "**/*.tsx", "**/*.mts", "**/*.mjs", "**/*.astro"],
   "exclude": ["node_modules", "dist"]
 }
