@@ -6,8 +6,8 @@ export default getViteConfig({
   plugins: [react()],
   test: {
     globals: true,
-    environment: "jsdom",
     setupFiles: "./vitest.setup.ts",
+    environment: "jsdom",
     coverage: {
       reporter: ["html"],
       include: ["src/**/*.{ts,tsx,astro}"]
