@@ -10,6 +10,6 @@
       "@public/*": ["./public/*"]
     }
   },
-  "include": ["eslint.config.mjs", "**/*.ts", "**/*.tsx", "**/*.mts", "**/*.mjs", "**/*.astro"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.mts", "**/*.mjs", "**/*.astro"],
   "exclude": ["node_modules", "dist"]
 }

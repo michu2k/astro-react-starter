@@ -1,6 +1,6 @@
 {
   "name": "astro-react-starter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Michał Strumpf",
   "private": true,
@@ -12,10 +12,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "ts:check": "tsc --noEmit",
-    "lint:check": "eslint \"**/*.{ts,tsx,mjs,astro}\"",
-    "lint:fix": "eslint \"**/*.{ts,tsx,mjs,astro}\" --fix",
-    "format:check": "prettier \"**/*.{ts,tsx,mjs,astro}\" --check --cache",
-    "format:fix": "prettier \"**/*.{ts,tsx,mjs,astro}\" --write --cache",
+    "lint:check": "eslint \"**/*.{ts,tsx,mjs,mts,astro}\"",
+    "lint:fix": "eslint \"**/*.{ts,tsx,mjs,mts,astro}\" --fix",
+    "format:check": "prettier \"**/*.{ts,tsx,mjs,mts,astro}\" --check --cache",
+    "format:fix": "prettier \"**/*.{ts,tsx,mjs,mts,astro}\" --write --cache",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage"
