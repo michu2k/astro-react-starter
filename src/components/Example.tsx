@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 
 const Example = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -26,4 +26,4 @@ const Example = () => {
   );
 };
 
-export {Example};
+export { Example };
