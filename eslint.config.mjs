@@ -1,4 +1,3 @@
-import stylisticTsPlugin from "@stylistic/eslint-plugin-ts";
 import eslintAstro from "eslint-plugin-astro";
 import importPlugin from "eslint-plugin-import";
 import jsxA11y from "eslint-plugin-jsx-a11y";
@@ -14,13 +13,11 @@ export default [
   {
     name: "Common config",
     plugins: {
-      "@stylistic/ts": stylisticTsPlugin,
       "unused-imports": unusedImportsPlugin,
       "simple-import-sort": simpleImportSortPlugin,
       "import": importPlugin
     },
     rules: {
-      "@stylistic/ts/indent": ["error", 2, {offsetTernaryExpressions: true}],
       "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/triple-slash-reference": "off",
       "unused-imports/no-unused-imports": "error",
